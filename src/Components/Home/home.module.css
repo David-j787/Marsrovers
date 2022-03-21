@@ -1,0 +1,39 @@
+
+.title{
+    color: rgb(208, 228, 245);
+    text-decoration:overline;
+    text-align: center;
+}
+
+.card{
+    text-align: center;
+    display: flex;
+    width: 46%;
+    margin-top: 1.5rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vw;
+    border-width: 0px;
+}
+
+.card_body{
+    margin: auto;
+    background-color: #C7EEFF;
+}
+
+.div_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.main_home{
+    background-color: #1B262C;
+}
+
+@media screen and (max-width: 67rem){
+    .card{
+        width: 90%;
+    }
+}

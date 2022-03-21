@@ -1,0 +1,114 @@
+.title_rover{
+    color:rgba(71, 98, 187, 0.794);
+    text-align: center;
+}
+
+.card{
+    display: block;
+    width: 32%;
+    margin-left: 0.6rem;
+    margin-top: 0.6rem;
+    text-align: center;
+    border-width: 0%;
+}
+
+.div_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.btn_up{
+    position: fixed;
+    bottom: 3vw;
+    right: 5vw;
+    display: flex;
+    z-index: 100;
+}
+
+.pages{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card_date_body{
+    color: aliceblue;
+    font-size: x-large;
+    font-style:italic;
+    background-color: #3F72AF
+}
+
+.main_photos{
+    background-color: #1B262C;
+}
+
+.div_empty_state{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.gif_marte{
+    border-radius: 100%;;
+    width: 33rem;
+}
+
+.form{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.form_inputs{
+    font-size: large;
+    font-style: italic;
+    width: 15vw;
+    height: 3rem;
+    border-radius: 0.7vw;
+    border-width: 0ch;
+    margin: 2rem;
+    margin-right: 4rem;
+}
+
+#get_btn{
+    width: 15vw;
+    position: relative;
+    right:4vw;
+}
+
+#date_input{
+    margin-right: 10vw;
+}
+
+
+@media screen and (max-width: 736px){
+    .card{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 666px){
+    .gif_marte{
+        margin-top: 2.8rem;
+        margin-bottom: 2.8rem;
+        border-radius: 100%;;
+        width: 20rem;
+    }
+    .form_inputs{
+        font-size: x-large;
+        width: 50vw;
+        
+    }
+    .card{
+        width: 100%;
+    }
+    
+    #get_btn{
+        width: 50vw;
+    }
+    #date_input{
+        margin-right: 12vw;
+    }
+}
